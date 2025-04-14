@@ -1,0 +1,13 @@
+{
+  "name": "SyllabusPlus",
+  "description": "Add course evaluation links to the syllabus page.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": ["tabs", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://gslbs.keio.jp/pub-syllabus/detail*"],
+      "js": ["script.js"]
+    }
+  ]
+}
