@@ -1,4 +1,6 @@
 # SyllabusPlus
+![image](https://github.com/user-attachments/assets/bb09be3d-5b00-48e0-be8d-d2beb3a13c7c)
+
 シラバスページにペンマークの授業評価を開くボタンを追加するChrome拡張機能です。  
 授業名での検索と担当者名での検索に対応しています。  
 みんなのキャンパスにも対応はしていますが、諸般の事情によりデフォルトでは無効化しています。  
