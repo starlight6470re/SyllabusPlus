@@ -10,8 +10,8 @@ window.onload = function() {
     window.open(`https://app.penmark.jp/syllabus/keio/lectures?title=${class_name}`);
     //window.open(`https://campus.nikki.ne.jp/university/search/569/?lesson_name=${class_name}`);
   };
+  
   //担当者名で評価を確認するボタンを設置
-
   const rows = document.querySelectorAll('table tbody tr');
   rows.forEach(row => {
     const th = row.querySelector('th');
