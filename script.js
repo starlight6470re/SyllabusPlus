@@ -1,4 +1,5 @@
 window.onload = function() {
+
   //授業名で評価を確認するボタンを設置
   const class_name = document.getElementsByClassName('class-name')[0].textContent.trim();
   const button_c = document.createElement('button');
@@ -10,7 +11,8 @@ window.onload = function() {
     window.open(`https://app.penmark.jp/syllabus/keio/lectures?title=${class_name}`);
     //window.open(`https://campus.nikki.ne.jp/university/search/569/?lesson_name=${class_name}`);
   };
-  
+  document.body.appendChild(button_c);
+
   //担当者名で評価を確認するボタンを設置
   const rows = document.querySelectorAll('table tbody tr');
   rows.forEach(row => {
@@ -29,8 +31,6 @@ window.onload = function() {
     window.open(`https://app.penmark.jp/syllabus/keio/lectures?teacher=${teacher_name}`);
     //window.open(`https://campus.nikki.ne.jp/university/search/569/?lfname=${teacher_name}`);
   };
-
-
   document.body.appendChild(button_t);
-  document.body.appendChild(button_c);
+
 };
