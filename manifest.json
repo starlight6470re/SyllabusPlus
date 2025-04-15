@@ -6,7 +6,7 @@
   "permissions": ["tabs", "activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://gslbs.keio.jp/pub-syllabus/detail*"],
+      "matches": ["https://gslbs.keio.jp/pub-syllabus/detail*",　"https://gslbs.keio.jp/syllabus/detail*"],
       "js": ["script.js"]
     }
   ]
